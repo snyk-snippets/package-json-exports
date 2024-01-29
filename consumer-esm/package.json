@@ -1,12 +1,15 @@
 {
-  "name": "package-json-exports",
+  "name": "consumer-esm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "Apache-2.0"
+  "license": "ISC",
+  "dependencies": {
+    "math-add": "^1.5.0"
+  }
 }
